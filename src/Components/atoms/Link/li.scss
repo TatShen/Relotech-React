@@ -1,0 +1,16 @@
+@import '../../../scss/theme/colors.scss';
+
+.link {
+    text-decoration: none;
+    font-family: Roboto-medium;
+    font-size: 20px;
+    color: $text;
+    margin-left: 90px;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.link:hover{
+  color: $blue;
+}
