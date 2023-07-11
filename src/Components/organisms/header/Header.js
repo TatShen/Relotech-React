@@ -13,7 +13,7 @@ function Header(){
            <div className='content'>
             <Menu></Menu>
             <Slogan></Slogan>
-            <Button></Button>
+            <Button className='header_button' value='УЗНАТЬ БОЛЬШЕ'></Button>
            </div>
             
         </div>

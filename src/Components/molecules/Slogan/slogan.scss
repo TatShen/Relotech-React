@@ -1,5 +1,12 @@
 @import '../../../scss/theme/typography.scss';
+@import '../../../scss/theme/colors.scss';
 
+.description{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding-top: 80px;
+}
 
 .slogan{
     font-family: Roboto-regular;
@@ -8,5 +15,28 @@
   line-height: 48px;
   letter-spacing: 0em;
   text-align: right;
-  color: rgba(143, 150, 162, 1);
+  color: $text;
+  margin-bottom: 145px;
+}
+
+.h1 {
+  font-family: Merri-bold;
+  font-size: 72px;
+  font-weight: 700;
+  line-height: 96px;
+  letter-spacing: 0.035em;
+  text-align: left;
+  color: $blue;
+  margin-bottom: 15px;
+}
+
+.description_p {
+  font-family: Roboto-regular;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 48px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: $text;
+  margin: 0;
 }

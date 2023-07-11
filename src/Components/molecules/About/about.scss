@@ -1,0 +1,61 @@
+@import '../../../scss/theme/colors.scss';
+@import '../../../scss/theme/typography.scss';
+
+.about{
+    background-color: $blue;
+}
+
+.about_h{
+    font-family: Merri-regular;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: $dark;
+    margin-top: 100px;
+    margin-bottom: 60px;
+}
+
+.about_description{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 135px;
+}
+
+
+.description_img{
+    display: inline-block;
+    width: 840px;
+    height: 578px;
+    background-image: url(../../../assets/images/aboutCompany.png);
+
+  
+}
+
+.description_text{
+    display: inline-block;
+    width: 724px;
+    padding: 40px 0px 0px 160px;
+    justify-items: baseline;
+
+}
+
+.about_text{
+    font-family: Roboto-regular;
+font-size: 24px;
+font-weight: 400;
+line-height: 32px;
+letter-spacing: 0.035em;
+text-align: left;
+color: $text;
+padding: 90px 20px 90px 0;
+
+}
+
+.first{
+   border-bottom: 1px solid $dark;
+   padding-top: 30px;
+}
+
