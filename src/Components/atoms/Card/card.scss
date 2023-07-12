@@ -1,4 +1,13 @@
 .card{
-    width: 100px;
-    height: auto;
+    position: relative;
+}
+
+img{
+    position: relative;
+    z-index: 1;
+}
+
+p{
+    position: relative;
+    z-index: 2;
 }

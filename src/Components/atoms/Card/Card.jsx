@@ -6,8 +6,8 @@ class Card extends React.Component{
 
     render(){
         return(
-            <div className='card' style={{backgroundImage:`url(${this.props.img})`}}>
-                
+            <div className='card' >
+                <img src={this.props.img} alt=''></img>
                 <p className='name'>{this.props.name}</p>
                 <p className='role'>{this.props.role}</p>
             </div>
