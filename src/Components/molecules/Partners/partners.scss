@@ -1,0 +1,25 @@
+@import '../../../scss/theme/colors.scss';
+@import '../../../scss/theme/typography.scss';
+
+.partners{
+    background-color: $blue;
+}
+
+.partners_h{
+    font-family: Merri-regular;
+font-size: 32px;
+font-weight: 400;
+line-height: 40px;
+letter-spacing: 0em;
+text-align: left;
+color: $dark;
+margin-top: 100px;
+margin-bottom: 225px;
+}
+
+.partners_description{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}

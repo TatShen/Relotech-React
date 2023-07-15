@@ -1,1 +1,5 @@
 export * from './Menu'
+export * from './About'
+export * from './Slogan'
+export * from './Partners'
+export * from './Team'

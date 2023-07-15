@@ -1,0 +1,30 @@
+@import '../../../scss/theme/typography.scss';
+
+
+
+
+
+input{
+    width: 274px;
+    height: 40px;
+    margin-right: 10px;
+    border-radius: 6px;
+    padding-left: 30px;
+}
+
+
+input::placeholder{
+    background-image: url(../../../../public/images/Vector.png);
+    background-repeat: no-repeat;
+    background-position: 5px;
+    padding-left: 30px;
+    font-family: Inter-Regular;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0px;
+    text-align: left;
+    
+    
+}
+

@@ -1,0 +1,48 @@
+@import "../../../scss/theme/colors.scss";
+@import "../../../scss/theme/typography.scss";
+
+.form {
+  width: 1440px;
+  height: 190px;
+  background-color: $blue;
+  opacity: 0.7;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 100px auto;
+  border-radius: 6px;
+}
+
+.form_h2 {
+  font-family: Inter-Semibold;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 28px;
+  letter-spacing: -0.20000000298023224px;
+  text-align: center;
+  color: rgba(28, 28, 28, 1);
+  margin-top: 40px;
+}
+
+.form_p {
+  font-family: Inter-Regular;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: -0.20000000298023224px;
+  text-align: center;
+  color: rgba(96, 96, 96, 1);
+  margin-bottom: 20px;
+}
+
+.form_button {
+  width: 110px;
+  height: 40px;
+  display: inline-block;
+  background: linear-gradient(180deg, #127fff 0%, #0067ff 100%);
+  border-radius: 6px;
+}
+
+.input_group {
+  text-align: center;
+}

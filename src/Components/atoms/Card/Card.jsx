@@ -8,8 +8,13 @@ class Card extends React.Component{
         return(
             <div className='card' >
                 <img src={this.props.img} alt=''></img>
-                <p className='name'>{this.props.name}</p>
-                <p className='role'>{this.props.role}</p>
+                <div className='description_card'>
+                    <p className='name'>{this.props.name}</p>
+                    <hr/>
+                    <p className='role'>{this.props.role}</p>
+                    <hr/>
+                </div>
+                
             </div>
         )
     }

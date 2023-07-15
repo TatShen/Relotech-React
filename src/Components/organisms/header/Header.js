@@ -11,7 +11,7 @@ function Header(){
     return(
         <div className='header'>
            <div className='content'>
-            <Menu></Menu>
+            <Menu seo='header'></Menu>
             <Slogan></Slogan>
             <Button className='header_button' value='УЗНАТЬ БОЛЬШЕ'></Button>
            </div>

@@ -1,13 +1,38 @@
+@import '../../../scss/theme/typography.scss';
+@import '../../../scss/theme/colors.scss';
+
 .card{
     position: relative;
+    margin-bottom: 60px;
 }
 
-img{
-    position: relative;
-    z-index: 1;
+.description_card{
+    position: absolute;
+    bottom: 0;
+    width: 96%;
+    padding: 5%;
 }
 
-p{
-    position: relative;
-    z-index: 2;
+
+.name{
+    font-family: Roboto-Slab;
+font-size: 32px;
+font-weight: 700;
+line-height: 24px;
+letter-spacing: 0em;
+text-align: left;
+color: $blue;
+margin-bottom: 35px;
+
+}
+
+.role{
+    font-family: Roboto-Slab;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: $role;
+    
 }

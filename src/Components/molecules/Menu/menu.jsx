@@ -8,14 +8,18 @@ class Menu extends React.Component{
         return(
             <div className='menu'>
                 <Logo></Logo>
-                <ul>
+                {(this.props.seo ==='header') ? <ul>
                     <Link name='Главная' href='#'></Link>
                     <Link name='О компании' href='#'></Link>
                     <Link name='Наша команда' href='#'></Link>
                     <Link name='Наши партнеры' href='#'></Link>
                     <Link name='Контакты' href='#'></Link>
-                </ul>
-               
+                </ul> : 
+                <ul>
+                    <Link name='ИНФОРМАЦИЯ' href='#'></Link>
+                    <Link name='УСЛУГИ' href='#'></Link>
+                    <Link name='ССЫЛКИ' href='#'></Link>
+                </ul> }            
             </div>
         )
     }
