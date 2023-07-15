@@ -4,7 +4,10 @@ import './logo.scss'
 
 function Logo(){
     return(
-       <div className="logo"></div>
+        <a href="#home">
+             <div className="logo"></div>
+        </a>
+      
     )
 }
 export default Logo

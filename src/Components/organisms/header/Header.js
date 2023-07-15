@@ -9,14 +9,17 @@ import Button from '../../atoms/Button/button'
 
 function Header(){
     return(
-        <div className='header'>
+     <header id='home'>
            <div className='content'>
             <Menu seo='header'></Menu>
             <Slogan></Slogan>
-            <Button className='header_button' value='УЗНАТЬ БОЛЬШЕ'></Button>
-           </div>
+            <a href='#'>
+                <Button className='header_button' value='УЗНАТЬ БОЛЬШЕ'></Button>
+            </a>
             
-        </div>
+           </div>
+     </header>        
+     
     )
 }
 

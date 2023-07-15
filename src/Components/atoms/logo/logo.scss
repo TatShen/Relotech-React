@@ -1,5 +1,18 @@
+@import '../../../scss/theme/breakpoints.scss';
+
 .logo{
     width: 233px;
     height: 117px;
     background-image: url(../../../../public/images/logo.png);
+    background-size: auto;
+    @media (max-width:$desktopWidth) {
+      width: 206px;
+      height: 102px;
+      background-size: 100%;
+     }
+
+     @media (max-width:$tableWidth) {
+      width: 176px;
+      height: 98px;
+     }
 }

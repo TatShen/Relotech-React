@@ -8,7 +8,7 @@ import React from 'react'
 class Team extends React.Component{
     render(){
         return(
-            <div className='team'>
+            <div className='team' id='team'>
                 <div className='content'>
                     <Text className='text_h' value='НАША КОМАНДА'></Text>
                     <div className='team_description'>

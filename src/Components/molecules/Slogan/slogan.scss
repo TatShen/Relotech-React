@@ -1,5 +1,6 @@
 @import '../../../scss/theme/typography.scss';
 @import '../../../scss/theme/colors.scss';
+@import '../../../scss/theme/breakpoints.scss';
 
 .description{
   display: flex;
@@ -17,6 +18,12 @@
   text-align: right;
   color: $text;
   margin-bottom: 145px;
+  @media (max-width:$desktopWidth) {
+    font-size: 38px;
+   }
+  @media (max-width:$smDesktopWidth) {
+    font-size: 34px;
+   }
 }
 
 .h1 {
@@ -28,6 +35,12 @@
   text-align: left;
   color: $blue;
   margin-bottom: 15px;
+  @media (max-width:$desktopWidth) {
+    font-size: 65px;
+   }
+  @media (max-width:$smDesktopWidth) {
+    font-size: 57px;
+   }
 }
 
 .description_p {

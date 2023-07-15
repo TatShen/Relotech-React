@@ -10,7 +10,7 @@ import Form from "../../molecules/Form/form";
 class Footer extends React.Component{
     render(){
         return(
-            <footer>
+            <footer id="contact">
                 <div className="content">
                     <Menu seo='footer'></Menu>
                     <Form></Form>

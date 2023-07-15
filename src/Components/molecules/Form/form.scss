@@ -11,6 +11,9 @@
   justify-content: center;
   margin: 100px auto;
   border-radius: 6px;
+  @media (max-width:1660px) {
+    width: 70%;
+ }
 }
 
 .form_h2 {

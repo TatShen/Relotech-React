@@ -1,9 +1,13 @@
 @import '../../../scss/theme/typography.scss';
 @import '../../../scss/theme/colors.scss';
+@import '../../../scss/theme/breakpoints.scss';
 
 .card{
+    width: 30%;
+    height: auto;
     position: relative;
     margin-bottom: 60px;
+   
 }
 
 .description_card{
@@ -11,7 +15,9 @@
     bottom: 0;
     width: 96%;
     padding: 5%;
+   
 }
+
 
 
 .name{
@@ -23,6 +29,12 @@ letter-spacing: 0em;
 text-align: left;
 color: $blue;
 margin-bottom: 35px;
+@media (max-width:$desktopWidth) {
+    font-size: 20px; 
+    margin-bottom: 15px;
+    
+}
+
 
 }
 
@@ -34,5 +46,10 @@ margin-bottom: 35px;
     letter-spacing: 0em;
     text-align: left;
     color: $role;
-    
+    @media (max-width:$desktopWidth) {
+        font-size: 10px; 
+      
+        
+    }
 }
+

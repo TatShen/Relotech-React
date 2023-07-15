@@ -1,5 +1,6 @@
 @import '../../../scss/theme/colors.scss';
 @import '../../../scss/theme/typography.scss';
+@import '../../../scss/theme/breakpoints.scss';
 
 .about{
     background-color: $blue;
@@ -27,19 +28,34 @@
 
 .description_img{
     display: inline-block;
-    width: 840px;
-    height: 578px;
+    width: 50%;
+    height: auto;
     background-image: url(../../../../public/images/aboutCompany.png);
-
+    background-position: center;
+    @media (max-width:$desktopWidth) {
+        width: 668px;
+        height: 525px;
+       }
+     
   
 }
 
 .description_text{
     display: inline-block;
-    width: 724px;
+    width: 50%;
     padding: 40px 0px 0px 160px;
     justify-items: baseline;
+    @media (max-width:$desktopWidth) {
+        width:525px;
+        padding: 40px 0px 0px 80px;
+       }
 
+       @media (max-width:$smDesktopWidth) {
+        margin-top: -20px;
+        width:515px;
+        padding:0px 0px 0px 50px;
+       }
+     
 }
 
 .about_text{
@@ -51,6 +67,10 @@ letter-spacing: 0.035em;
 text-align: left;
 color: $text;
 padding: 90px 20px 90px 0;
+@media (max-width:$desktopWidth) {
+    font-size: 20px;
+    padding: 50px 20px 50px 0;
+   }
 
 }
 

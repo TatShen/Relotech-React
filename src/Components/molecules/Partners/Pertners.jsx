@@ -6,7 +6,7 @@ import Partner from "../../atoms/Partner/Partner";
 class Partners extends React.Component{
     render(){
         return(
-            <div className="partners">
+            <div className="partners" id="partners">
                 <div className="content">
                    <Text className='partners_h' value='НАШИ ПАРТНЕРЫ'></Text>
                    <div className="partners_description">

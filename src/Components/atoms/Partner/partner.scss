@@ -2,8 +2,13 @@
 
 .partner{
     width: 466px;
-    height: 168px;
+    height: 128px;
     border-radius: 50%;
     background-color:$dark ;
     margin-bottom: 290px;
+    @media (max-width:1660px) {
+        width: 30%;
+        height: 108px;
+        margin-bottom: 190px;
+     }
 }

@@ -21,10 +21,18 @@ line-height: 24px;
 letter-spacing: 0em;
 text-align: left;
 color: $blue;
-margin-left: 385px;
+margin-left: 0 40px;
 
 }
 
+footer .button_link:hover{
+    background: $blue;
+    opacity: 0.7;
+}
+
+footer .link:hover{
+    color: $dark;
+}
 
 .footer_text{
     margin-top: 270px;
