@@ -12,7 +12,10 @@
 }
 
 .team_description > div{
-    width: 31%;;
+    width: 31%;
+    @media (max-width:$xsTableWidth) {
+        width: 45%;
+       }
 }
 
 .text_h{
@@ -25,6 +28,7 @@
     color:$blue;
     margin-top: 100px;
     margin-bottom: 60px;
+    
 }
 
 .team_description_text{
@@ -48,6 +52,15 @@ margin-top: 50px;
 
 @media (max-width:$smDesktopWidth) {
     font-size: 10px;
+    margin-top: 0px;
+   }
+
+   @media (max-width:$smTableWidth) {
+    font-size: 12px;
+    margin-top: 5px;
+   }
+   @media (max-width:$xsTableWidth) {
+    margin-bottom: 40px;
     margin-top: 0px;
    }
 }

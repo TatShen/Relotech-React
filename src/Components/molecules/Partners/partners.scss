@@ -1,5 +1,6 @@
 @import '../../../scss/theme/colors.scss';
 @import '../../../scss/theme/typography.scss';
+@import '../../../scss/theme/breakpoints.scss';
 
 .partners{
     background-color: $blue;
@@ -15,6 +16,10 @@ text-align: left;
 color: $dark;
 margin-top: 100px;
 margin-bottom: 225px;
+@media (max-width:$xsTableWidth) {
+    margin-bottom: 100px;
+    
+   }
 }
 
 .partners_description{

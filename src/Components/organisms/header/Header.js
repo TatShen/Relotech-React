@@ -13,9 +13,9 @@ function Header(){
            <div className='content'>
             <Menu seo='header'></Menu>
             <Slogan></Slogan>
-            <a href='#'>
+            
                 <Button className='header_button' value='УЗНАТЬ БОЛЬШЕ'></Button>
-            </a>
+           
             
            </div>
      </header>        

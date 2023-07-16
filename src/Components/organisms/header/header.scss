@@ -2,15 +2,24 @@
 @import '../../../scss/theme/breakpoints.scss';
 
 header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
     background-image: url(../../../../public/images/backgraund.png);
     background-size: cover;
     max-width: 100vw;
     height: auto;
-    padding-top: 60px;
+    padding-top: 0px;
     @media (max-width:$tableWidth) {
       background-size: auto;
       background-position: center;
      }
+
+     @media (max-width:$phoneWidth) {
+      background-size: cover;
+      background-position: 75%;
+     }
+
   }
 
   .header_button{
@@ -30,6 +39,16 @@ header {
     @media (max-width:$smDesktopWidth) {
       width: 380px;
      }
+
+     @media (max-width:$phoneWidth) {
+      width: 280px;
+      margin-left: 20%;
+      margin-top: 100px;
+      margin-bottom: 80px;
+      
+     }
 }
+
+
   
 

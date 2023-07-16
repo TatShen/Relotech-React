@@ -1,9 +1,10 @@
 @import '../../../scss/theme/colors.scss';
 @import '../../../scss/theme/typography.scss';
+@import '../../../scss/theme/breakpoints.scss';
 
 footer{
     background-color: $dark;
-    padding-top: 120px;
+    padding-top: 60px;
    
     
 }
@@ -46,5 +47,29 @@ letter-spacing: -0.045em;
 text-align: left;
 color: $blue;
 text-align: center;
+@media (max-width:$desktopWidth) {
+    margin-top: 200px;
 }
 
+@media (max-width:$smDesktopWidth) {
+    margin-top: 170px;
+   }
+
+   @media (max-width:$smTableWidth) {
+    margin-top: 140px;
+   }
+}
+
+.footer_list{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 60%;
+   
+}
+
+.footer_menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}

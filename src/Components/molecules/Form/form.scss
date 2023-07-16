@@ -1,5 +1,6 @@
 @import "../../../scss/theme/colors.scss";
 @import "../../../scss/theme/typography.scss";
+@import "../../../scss/theme/breakpoints.scss";
 
 .form {
   width: 1440px;
@@ -44,8 +45,14 @@
   display: inline-block;
   background: linear-gradient(180deg, #127fff 0%, #0067ff 100%);
   border-radius: 6px;
+  @media (max-width:$xsTableWidth) {
+    width: 80px;
+ }
 }
 
 .input_group {
   text-align: center;
+  @media (max-width:$xsTableWidth) {
+    margin-bottom: 30px;
+ }
 }

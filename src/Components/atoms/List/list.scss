@@ -1,0 +1,22 @@
+@import '../../../scss/theme/typography.scss';
+@import '../../../scss/theme/colors.scss';
+
+.list_button{
+    background-color: transparent;
+    font-family:  SF-UI-regular;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: $blue;
+    margin-left: 0 40px;
+}
+
+
+.list_button:hover{
+    background: $blue;
+    opacity: 0.7;
+    color: $dark;
+    border-radius: 6px;
+}
