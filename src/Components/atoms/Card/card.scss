@@ -7,6 +7,12 @@
     height: auto;
     position: relative;
     margin-bottom: 60px;
+    @media (max-width:$phoneWidth) {
+        width: 300px;height: auto;
+        margin: 15px;
+        margin-bottom: 40px;
+       
+       }
    
 }
 

@@ -1,4 +1,5 @@
 @import '../../../scss/theme/colors.scss';
+@import '../../../scss/theme/breakpoints.scss';
 
 .partner{
     width: 466px;
@@ -10,5 +11,10 @@
         width: 30%;
         height: 108px;
         margin-bottom: 190px;
+     }
+     @media (max-width:$xsTableWidth) {
+        width: 30%;
+        height: 78px;
+        margin-bottom: 90px;
      }
 }

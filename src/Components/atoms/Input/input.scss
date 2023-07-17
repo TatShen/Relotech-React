@@ -1,6 +1,6 @@
 @import '../../../scss/theme/typography.scss';
 
-
+@import '../../../scss/theme/breakpoints.scss';
 
 
 
@@ -10,6 +10,10 @@ input{
     margin-right: 10px;
     border-radius: 6px;
     padding-left: 30px;
+    @media (max-width:$xsTableWidth) {
+       width: 170px;
+    }
+ 
 }
 
 
@@ -24,7 +28,6 @@ input::placeholder{
     line-height: 19px;
     letter-spacing: 0px;
     text-align: left;
-    
     
 }
 

@@ -16,7 +16,9 @@
     @media (max-width:$xsTableWidth) {
         width: 45%;
        }
-}
+       
+}   
+
 
 .text_h{
     font-family:Merri-regular;
@@ -28,6 +30,10 @@
     color:$blue;
     margin-top: 100px;
     margin-bottom: 60px;
+    @media (max-width:$phoneWidth) {
+        margin-top: 60px;
+        margin-bottom: 30px;
+    }
     
 }
 
@@ -63,4 +69,19 @@ margin-top: 50px;
     margin-bottom: 40px;
     margin-top: 0px;
    }
+}
+
+.team_mobile{
+    display: flex;
+    flex-direction: column;
+   align-content: center;
+}
+
+
+
+.scroll{
+    display: flex;
+    flex-direction: row;
+    width: 81vw*6;
+    justify-content: center;
 }

@@ -15,6 +15,11 @@
   @media (max-width:1660px) {
     width: 70%;
  }
+ @media (max-width:$xsTableWidth) {
+  width: 90%;
+  height: 190px;
+  margin-bottom: 90px;
+}
 }
 
 .form_h2 {

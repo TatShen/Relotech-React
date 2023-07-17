@@ -58,6 +58,9 @@ text-align: center;
    @media (max-width:$smTableWidth) {
     margin-top: 140px;
    }
+   @media (max-width:$phoneWidth) {
+    margin-top: 40px;
+   }
 }
 
 .footer_list{
@@ -65,6 +68,10 @@ text-align: center;
     flex-direction: row;
     justify-content: space-between;
     width: 60%;
+    @media (max-width:$phoneWidth) {
+        flex-direction: column;
+        align-items: end;
+       }
    
 }
 
