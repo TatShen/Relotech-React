@@ -69,6 +69,13 @@ margin-top: 50px;
     margin-bottom: 40px;
     margin-top: 0px;
    }
+   @media (max-width:$phoneWidth) {
+    margin-bottom: 40px;
+    margin-top: 50px;
+    font-size: 24px;
+    text-align: center;
+   
+   }
 }
 
 .team_mobile{

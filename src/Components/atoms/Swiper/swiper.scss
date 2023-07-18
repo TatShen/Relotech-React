@@ -1,0 +1,71 @@
+@import '../../../scss/theme/breakpoints.scss';
+@import '../../../scss/theme/colors.scss';
+
+
+.wrapper{
+    flex-grow: 1;
+}
+
+.swiper {
+    display: flex;
+    max-width: 800px;
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+
+.swiper-wrapper {
+    box-sizing: content-box;
+}
+
+.swiper-slide{
+    display: flex;
+}
+
+
+
+/* Кнопки вперед и назад */
+.swiper-button-prev{
+    background-color: transparent;
+    left: 20px;
+}
+
+.swiper-button-next{
+    background-color: transparent;
+    right: 20px;
+}
+
+.swiper-button-prev::after, .swiper-button-next::after{
+    color: $blue;
+    font-size: 30px;
+}
+
+/* Пагинация (точки) */
+/* .swiper-pagination{} */
+
+.swiper-pagination-bullet{
+    background-color: transparent;
+    width: 15px;
+    height: 15px;
+    opacity: 1;
+    border-radius: 0;
+    border: 2px solid $blue;
+} 
+
+.swiper-pagination-bullet-active{
+    background-color:$blue;
+}
+
+.card{
+    width: 30%;
+    height: auto;
+    position: relative;
+    margin-bottom: 60px;
+    @media (max-width:$phoneWidth) {
+        width: 100%;
+        height: auto;
+        
+        margin-bottom: 40px;
+       
+       }
+}
