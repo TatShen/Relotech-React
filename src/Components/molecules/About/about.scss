@@ -31,6 +31,7 @@
     margin-bottom: 135px;
     @media (max-width:$phoneWidth) {
        flex-direction: column;
+       margin-bottom: 60px;
     }
 }
 
