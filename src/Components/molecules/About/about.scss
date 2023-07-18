@@ -29,6 +29,10 @@
     flex-direction: row;
     justify-content: space-between;
     margin-bottom: 135px;
+    @media (max-width:$smTableWidth) {
+        flex-direction: column;
+        margin-bottom: 60px;
+     }
     @media (max-width:$phoneWidth) {
        flex-direction: column;
        margin-bottom: 60px;
@@ -46,7 +50,12 @@
         width: 668px;
         height: 525px;
        }
-    
+       @media (max-width:$smTableWidth) {
+        width: 100%;
+        height: 330px;
+        background-position: center;
+     }
+
        @media (max-width:$phoneWidth) {
         width: 100%;
         height: 330px;
@@ -77,6 +86,14 @@
         width:515px;
         padding:60px 0px 0px 50px;
        }
+
+       @media (max-width: $smTableWidth) {
+        margin-top: 0;
+        width:100%;
+        padding-top: 60px;
+        padding-left: 0;
+      
+     }
 
        @media (max-width:$phoneWidth) {
         width:100%;
