@@ -20,6 +20,10 @@ margin-bottom: 225px;
     margin-bottom: 100px;
     
    }
+   @media (max-width:$phoneWidth) {
+    font-size: 26px;
+    margin-top: 60px;
+   }
 }
 
 .partners_description{
