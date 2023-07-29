@@ -49,10 +49,11 @@
 }
 
 .form_button {
+  color: $role;
   width: 110px;
   height: 40px;
   display: inline-block;
-  background: linear-gradient(180deg, #127fff 0%, #0067ff 100%);
+  background: $dark;
   border-radius: 6px;
   @media (max-width:$xsTableWidth) {
     width: 80px;

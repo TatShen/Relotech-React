@@ -8,11 +8,11 @@ class Form extends React.Component{
     render(){
         return(
             <div className="form">
-                <Text className="form_h2" value='Subscribe on our newsletter'></Text>
-                <Text className='form_p' value =' Get daily news on upcoming offers from many suppliers all over the world'></Text>
+                <Text className="form_h2" value='Подпишитесь на нашу рассылку новостей!'></Text>
+                <Text className='form_p' value =' Получайте новости о новых услугах и предложениях'></Text>
                 <div className="input_group">
                     <Input></Input>
-                    <Button className='form_button' value='Subscribe'></Button>
+                    <Button className='form_button' value='Подписка'></Button>
                 </div>
                 
             </div> 

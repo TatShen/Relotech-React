@@ -16,6 +16,7 @@
     height: 60px;
     background-size: 100%;
     
+    
 }
 
 .burger_active{
@@ -25,7 +26,7 @@
     justify-content: space-between;
     padding-top:  50px;
     background-color: $blue;
-    opacity: 0.6;
+    opacity: 1;
     width: 100vw;
     left: 0;
    
@@ -39,10 +40,13 @@
     height: 60px;
     background-size: 100%;
     align-self: flex-end;
+    margin-top: -30px;
+    margin-right: 20px;
 }
 
 .burger_ul{
     display: flex;
     flex-direction: column;
-    margin-bottom: 5px;
+    margin-bottom: 10px;
+    margin-top: -15px;
 }
